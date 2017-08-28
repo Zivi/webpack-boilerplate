@@ -7,8 +7,9 @@ module.exports = {
   entry:  './src/index.js',
   devtool: 'cheap-module-source-map',
   devServer: {
-    contentBase: './dist',
-    hot: true
+    contentBase: path.join(__dirname, 'public'),
+    port: 8000,
+    hot: true,
   },
   module: {
     rules: [
@@ -23,7 +24,6 @@ module.exports = {
       }
     ]
   },
-
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
@@ -44,5 +44,4 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   }
-
 };

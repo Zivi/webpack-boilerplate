@@ -4,3 +4,6 @@ node_modules/
 # Output logs
 npm-debug.log
 dist
+
+# OS Files
+./src/.DS_Store
