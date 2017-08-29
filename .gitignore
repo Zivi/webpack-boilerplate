@@ -1,9 +1,9 @@
 # Dependency directories
-node_modules/
+node_modules
 
 # Output logs
 npm-debug.log
 dist
 
 # OS Files
-./src/.DS_Store
+.DS_Store
