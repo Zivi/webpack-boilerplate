@@ -1,11 +1,9 @@
-import './styles.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles.css';
 import App from './components/App';
 
 const el = document.createElement('div');
 document.body.appendChild(el);
 
-ReactDOM.render(
-  <App />, el
-);
+ReactDOM.render(<App />, el);
