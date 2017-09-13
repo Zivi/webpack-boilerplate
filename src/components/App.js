@@ -1,9 +1,17 @@
 import React from 'react';
 
-function App() {
-  return (
-    <h1>React initialized</h1>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <h1>React initalized</h1>
+    );
+  }
+
 }
 
 export default App;
